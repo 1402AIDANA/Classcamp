@@ -30,6 +30,9 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
+a:hover {
+  transform: scale(1.1);
+}
 .logo {
   display: flex;
   align-items: center;
@@ -92,12 +95,12 @@ body {
 .lesson {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
   padding: 100px 0;
+  gap: 80px;
 }
 .lesson-img {
   position: relative;
-  margin-left: 30px;
   animation: img-right 3s;
 }
 @keyframes img-right {
@@ -540,27 +543,147 @@ body {
 }
 
 .group-end {
+  width: 100%;
   position: relative;
   margin-top: -200px;
 }
-.lesson {
+.gradient {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: -5px;
+}
+.group-center h2 {
+  font-size: 42px;
+  font-weight: 700;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.group-center {
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 30px;
   position: absolute;
-  left: 400px;
-  bottom: 10px;
+  left: 420px;
+  bottom: 250px;
 }
-.lesson h2 {
-  font-size: 42px;
-  font-weight: 700;
-  color: white;
-  text-align: center;
-}
-.lesson p {
+.group-center p {
   font-size: 23px;
   font-weight: 400;
-  opacity: 70%;
   color: white;
+}
+.nova h1 {
+  font-size: 58px;
+  font-size: 400;
+  color: white;
+}
+.nova-box {
+  display: flex;
+  gap: 50px;
+}
+.nova-block {
+  display: flex;
+  margin: 100px 0;
+}
+.nova-text {
+  width: 340px;
+  height: 450px;
+  background: #95fec1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 10px;
+}
+.nova-text h6 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #93dab0;
+  text-align: center;
+}
+.nova-text h3 {
+  font-size: 29px;
+  font-weight: 400;
+  color: white;
+}
+.nova-text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 120px 0 5px 200px;
+}
+.icon2 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 225px 0 5px 200px;
+}
+.icon ion-icon {
+  vertical-align: -25px;
+  color: white;
+  font-size: 30px;
+}
+.icon2 ion-icon {
+  vertical-align: -25px;
+  color: white;
+  font-size: 30px;
+}
+.nova-text h5 {
+  font-size: 19px;
+  font-weight: 400;
+  color: white;
+}
+.nova-img {
+  color: white;
+  position: absolute;
+  padding: 440px 0 10px 15px;
+}
+.nova-img h4 {
+  font-size: 19px;
+  font-weight: 400;
+}
+.nova-img h5 {
+  font-size: 13px;
+  font-weight: 400;
+}
+.nova-img h5 ion-icon {
+  vertical-align: -3px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin: 100px 0;
+}
+.footer-info {
+  width: 850px;
+  display: flex;
+  justify-content: space-between;
+}
+.classcamp h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 45px;
+}
+
+.classcamp p {
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 15px;
+}
+.footer-icon {
+  color: white;
+  width: 40px;
+  margin: 0 10px;
+  font-size: 23px;
+  width: 100px;
 }
